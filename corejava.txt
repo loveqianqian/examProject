@@ -1,0 +1,120 @@
+@option=4,answer=0,score=5,level=3
+Java application 中的主类需包含 main 方法,以下哪项是 main 方法的正确形参( )
+String arg[]
+Char arg[]
+StringBuffer args[]
+String arg
+@option=4,answer=3,score=5,level=3
+以下哪个不是 Java 的原始数据类型()
+int
+Boolean
+float
+Applet
+@option=4,answer=2,score=5,level=1
+若需要定义一个类域或类方法,应使用哪种修饰符()
+static
+package
+private
+int
+@option=4,answer=3,score=5,level=1
+以下哪项可能包含菜单条()
+Panel
+Frame
+Dialog
+public
+@option=4,answer=1,score=5,level=2
+在浏览器中执行 applet 程序,以下选项中的哪个方法将被最先执行()
+init()
+start()
+destroy()
+stop()
+@option=4,answer=1/3,score=5,level=2
+下面 main()方法的定义哪些是正确的( )
+public static void main(String args[]) {}
+public static void main(String[] args) {}
+public static void main(String[]) {}
+public static void main(String [] x) {}
+@option=4,answer=0/1/3,score=5,level=4
+线程对象的生命周期中,通常经历下面哪些状态()
+新建
+运行
+就绪
+死亡
+@option=4,answer=1/2,score=5,level=4
+下面说法正确的是()
+final 可修饰类,属性(变量),方法
+abstract 可修饰类,方法
+抽象方法只有方法头,没有方法体
+关键字 final 和 abstract 不能同时使用
+@option=4,answer=0/1/2/3,score=5,level=5
+下面关于 java 中输入/输出流的说法正确的是()
+Reader 与 Writer 类用来读,写字符流.
+FileInputStream 与 FileOutputStream 类用读,写字节流
+RandomAccessFile 既可以用来读文件,也可以用来写文件
+File 类用来处理与文件相关的操作
+@option=4,answer=2/3,score=5,level=5
+下面说法正确的是( )
+如果某公共接口被声明在一个源文件中,则接口必须与源文件具有相同名字
+如果源文件包含 import 语句,则该语句必须是除空行和注释行外的第一个语句行
+如果某源文件包含 package 语句,则该语句必须是第一个非空,非注释行
+接口中的方法必定是抽象方法,但可以不用关键字 abstract 修饰
+@option=4,answer=3,score=5,level=6
+当某一线程正处于休眠状态,而另一个线程用 Thread 类中的 interrupt()方法中断它时,抛出的异常类型是()
+IOException
+InterruptedException
+RuntimeException
+ClassNotFoundException
+@option=4,answer=0/1/2/3,score=5,level=6
+下面哪些关键字能用来控制对类成员的访问()
+public
+protected
+private
+default
+@option=4,answer=0/1/2,score=5,level=7
+定义如下的二维数组,int[][] b={{1, 2, 3}, {4, 5},{6, 7, 8}}};下面的说法正确的是()
+b.length 的值是3
+b[1][1]的值是5
+b[1].length 的值是3 
+二维数组b的第一行有3个元素
+@option=4,answer=0/2/3,score=5,level=7
+类 B 是一个抽象类,类 C 是类 B 的非抽象子类,下列创建对象 x1 的语句中 , 正确的是()
+B x1= new C( )
+C x1= new B( )
+B x1= new B( )
+C x1= new C( )
+@option=4,answer=0/2/3,score=5,level=8
+下面关于外部类和内部类成员的相互访问的规则中,正确的选项是()
+内部类可以直接访问外部类的成员
+外部类可以直接访问内部类的成员
+外部类不能访问内部类的成员
+外部类可通过创建内部类的实例来访问内部类的成员
+@option=4,answer=3,score=5,level=8
+下面的代码段执行之后int count = 1; for (int i = 1; i <= 5; i++) { count += i; } System.out.println(count);count 的值是什么()
+5
+1
+15
+16
+@option=4,answer=1,score=5,level=9
+如果容器组件 p 的布局是 BorderLayout,则在 p 的下边中添加一个按钮 b, 应该使用的语句是()
+p.add(b);
+p.add(b,"South");
+p.add(b,"North");
+b.add(p,"North");
+@option=4,answer=1,score=5,level=9
+下列哪一个 import 命令可以使我们在程序中创建输入/输出流对象()
+import java.sql.*;
+import java.io.*; , 
+import java.util.*;
+import java.net.*;
+@option=4,answer=3,score=5,level=10
+下面哪一个 import 命令可以为我们提供编写网络应用程序的类()
+import java.sql.*;
+import java.io.*;
+import java.util.*;
+import java.net.*;
+@option=4,answer=0,score=5,level=10
+声明并创建一个按钮对象 b,应该使用的语句是()
+Button b=new Button();
+button b=new button();
+Button b=new b();
+b.setLabel("确定")
