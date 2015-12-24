@@ -1,0 +1,2 @@
+# examProject
+这个一个纯java swing写的一个小的测试系统，mvc结构，对于研究swing和简单mvc模型会有一些帮助
